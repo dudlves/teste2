@@ -166,6 +166,13 @@ Acesse o Swagger UI em `http://localhost:8080/swagger-ui.html` para:
 
 ## Deploy
 
+### Deploy em Produção
+
+- **Frontend (Vercel):** [Acessar o Sistema Acadêmico](https://teste2-wine-beta.vercel.app/)
+- **Backend (Render - Swagger UI):** [Acessar a Documentação da API](https://teste2-km8m.onrender.com/swagger-ui/index.html)
+
+---
+
 ### Backend no Render
 
 O projeto inclui um **Dockerfile** otimizado para deploy no Render.
@@ -259,38 +266,3 @@ O sistema utiliza Spring Security com autenticação HTTP Basic. Dois usuários 
 
 Os endpoints do Swagger, H2 Console e Actuator estão liberados para facilitar o desenvolvimento.
 
-## Dados de Teste
-
-O sistema vem com dados pré-carregados:
-
-**Cursos:**
-1. Engenharia de Software (3600h)
-2. Ciência da Computação (3200h)
-3. Sistemas de Informação (2800h)
-
-**Alunos:**
-1. João Silva (2024001) - Matriculado em Engenharia de Software e Ciência da Computação
-2. Maria Santos (2024002) - Matriculada em Ciência da Computação
-3. Pedro Oliveira (2024003) - Matriculado em Sistemas de Informação
-
-## Referências
-
-- [Spring Boot Documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/)
-- [Spring Security](https://docs.spring.io/spring-security/reference/index.html)
-- [Spring Data JPA](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/)
-- [Springdoc OpenAPI](https://springdoc.org)
-- [React Documentation](https://react.dev/learn)
-- [Vite Guide](https://vitejs.dev/guide)
-- [Prometheus](https://prometheus.io/docs/introduction/overview/)
-- [Grafana](https://grafana.com/docs/grafana/latest/)
-- [Gatling](https://gatling.io/docs/gatling/reference/current/)
-- [Render Deploy](https://render.com/docs/deploy-spring)
-- [Vercel Deploy](https://vercel.com/docs)
-
-## Licença
-
-Este projeto foi desenvolvido para fins educacionais.
-
-## Autor
-
-Sistema Acadêmico - Avaliação 02
